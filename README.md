@@ -7,6 +7,10 @@ Casaos_玩客云搞基计划
 
 欢迎各位提交问题和可用的docker镜像json文件哦
 
+Casaos官方
+https://github.com/muzihuaner/Casaos_Onecloud
+
+
 ### 安装
 
 ```sh
