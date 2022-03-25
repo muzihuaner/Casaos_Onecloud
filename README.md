@@ -13,6 +13,10 @@ https://github.com/muzihuaner/Casaos_Onecloud
 
 ### 安装
 
+提醒：安装前请确保你的系统干净。没有docker以及web环境
+然后用SSH工具连接到你的主机
+输入下面的命令
+
 ```sh
 wget -qO- https://cdn.jsdelivr.net/gh/muzihuaner/Casaos_Onecloud@main/script/casaos.sh | bash
 ```
