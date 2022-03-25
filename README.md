@@ -1,7 +1,9 @@
 # Casaos_Onecloud
 Casaos_玩客云搞基计划
 
-修改了安装脚本对存储的限制&增加了github镜像
+本项目收集一些玩客云可以使用的Docker镜像以及解决一些问题
+
+欢迎各位提交问题和可用的docker镜像json文件哦
 
 ### 安装
 
