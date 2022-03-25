@@ -21,3 +21,8 @@ curl -fsSL https://cdn.jsdelivr.net/gh/muzihuaner/Casaos_Onecloud@main/script/ca
 curl -fsSL https://cdn.jsdelivr.net/gh/muzihuaner/Casaos_Onecloud@main/script/casaos.sh | bash
 ```
 
+#### Docker镜像
+
+dockerjson文件夹里是一些玩客云可以使用的镜像json文件  
+在应用中心-手动安装App-右上角导入即可
+
