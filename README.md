@@ -10,6 +10,10 @@ Casaos_玩客云搞基计划
 Casaos官方
 https://github.com/muzihuaner/Casaos_Onecloud
 
+《CasaOS—— 一个简单，易于使用，优雅的开源家庭云系统》
+https://mp.weixin.qq.com/s/1oMywRTbmUADLOlSefvd9A
+
+
 
 ### 安装
 
