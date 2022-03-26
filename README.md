@@ -8,12 +8,12 @@ Casaos_玩客云搞基计划
 欢迎各位提交问题和可用的docker镜像json文件哦
 
 Casaos官方
-https://github.com/muzihuaner/Casaos_Onecloud
+https://github.com/IceWhaleTech/CasaOS
 
 《CasaOS—— 一个简单，易于使用，优雅的开源家庭云系统》
 https://mp.weixin.qq.com/s/1oMywRTbmUADLOlSefvd9A
 
-
+https://www.bilibili.com/video/BV1X94y1Z7sA?share_source=copy_web
 
 ### 安装
 
