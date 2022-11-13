@@ -1,1 +1,58 @@
-{"origin":"custom","network_model":"bridge","index":"/","icon":"https://cdn.jsdelivr.net/gh/IceWhaleTech/AppIcon@main/all/qbittorrentee.png","image":"superng6/qbittorrentee:latest","envs":[],"ports":[{"container":"8080","host":"8080","protocol":"tcp","desc":"","type":0},{"container":"6881","host":"6881","protocol":"tcp","desc":"","type":0},{"container":"6881","host":"6881","protocol":"udp","desc":"","type":0}],"volumes":[{"container":"/downloads","host":"/DATA/qbittorrent/Download","type":0,"desc":""},{"container":"/config","host":"/DATA/qbittorrent/Config","type":0,"desc":""}],"devices":[],"port_map":"8080","cpu_shares":10,"restart":"unless-stopped","enable_upnp":false,"label":"qbittorrent","description":"","position":true,"host_name":"","privileged":false,"cap_add":[],"cmd":[],"version":"1.0"}
+{
+    "origin": "custom",
+    "network_model": "bridge",
+    "index": "/",
+    "icon": "https://icon.casaos.io/main/all/qbittorrent.png",
+    "image": "superng6/qbittorrentee:latest",
+    "envs": [],
+    "ports": [
+        {
+            "container": "8080",
+            "host": "8080",
+            "protocol": "tcp",
+            "desc": "",
+            "type": 0
+        },
+        {
+            "container": "6881",
+            "host": "6881",
+            "protocol": "tcp",
+            "desc": "",
+            "type": 0
+        },
+        {
+            "container": "6881",
+            "host": "6881",
+            "protocol": "udp",
+            "desc": "",
+            "type": 0
+        }
+    ],
+    "volumes": [
+        {
+            "container": "/downloads",
+            "host": "/DATA/AppData/qbittorrent/Download",
+            "type": 0,
+            "desc": ""
+        },
+        {
+            "container": "/config",
+            "host": "/DATA/AppData/qbittorrent/Config",
+            "type": 0,
+            "desc": ""
+        }
+    ],
+    "devices": [],
+    "port_map": "8080",
+    "cpu_shares": 10,
+    "restart": "unless-stopped",
+    "enable_upnp": false,
+    "label": "qbittorrent",
+    "description": "",
+    "position": true,
+    "host_name": "",
+    "privileged": false,
+    "cap_add": [],
+    "cmd": [],
+    "version": "1.0"
+}
