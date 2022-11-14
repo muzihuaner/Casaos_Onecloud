@@ -7,7 +7,7 @@
     "label": "fastosdocker",
     "position": false,
     "index": "",
-    "icon": "https://cdn.jsdelivr.net/gh/Cp0204/Casaos_Onecloud@main/AppIcon/fastosdocker.png",
+    "icon": "https://cdn.jsdelivr.net/gh/Cp0204/AppIcon@main/all/fastosdocker.png",
     "network_model": "bridge",
     "image": "wangbinxingkong/fast:latest",
     "description": "",

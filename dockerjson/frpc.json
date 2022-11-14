@@ -7,7 +7,7 @@
     "label": "frpc",
     "position": false,
     "index": "",
-    "icon": "https://cdn.jsdelivr.net/gh/Cp0204/Casaos_Onecloud@main/AppIcon/frp.png",
+    "icon": "https://cdn.jsdelivr.net/gh/Cp0204/AppIcon@main/all/frpc.png",
     "network_model": "host",
     "image": "snowdreamtech/frpc:latest",
     "description": "",

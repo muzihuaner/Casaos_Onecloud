@@ -7,7 +7,7 @@
     "label": "aria2-pro",
     "position": false,
     "index": "",
-    "icon": "https://cdn.jsdelivr.net/gh/Cp0204/Casaos_Onecloud@main/AppIcon/aria2.png",
+    "icon": "https://cdn.jsdelivr.net/gh/Cp0204/AppIcon@main/all/aria2.png",
     "network_model": "host",
     "image": "p3terx/aria2-pro:latest",
     "description": "",
@@ -16,13 +16,13 @@
     "volumes": [
         {
             "container": "/config",
-            "host": "/DATA/AppData/Aria2/config",
+            "host": "/DATA/AppData/aria2-pro/config",
             "type": 0,
             "desc": ""
         },
         {
             "container": "/downloads",
-            "host": "/DATA/AppData/Aria2/downloads",
+            "host": "/DATA/Downloads",
             "type": 0,
             "desc": ""
         }

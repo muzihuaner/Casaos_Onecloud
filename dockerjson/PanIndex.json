@@ -1,0 +1,51 @@
+{
+    "host": "",
+    "protocol": "http",
+    "port_map": "5238",
+    "cpu_shares": 10,
+    "restart": "unless-stopped",
+    "label": "PanIndex",
+    "position": false,
+    "index": "",
+    "icon": "https://cdn.jsdelivr.net/gh/Cp0204/AppIcon@main/all/panindex.png",
+    "network_model": "bridge",
+    "image": "iicm/pan-index:latest",
+    "description": "",
+    "origin": "custom",
+    "ports": [
+        {
+            "container": "5238",
+            "host": "5238",
+            "protocol": "tcp",
+            "desc": "",
+            "type": 0
+        }
+    ],
+    "volumes": [
+        {
+            "container": "/app/data",
+            "host": "/DATA/AppData/PanIndex",
+            "type": 0,
+            "desc": ""
+        }
+    ],
+    "envs": [
+        {
+            "container": "PORT",
+            "host": "5238",
+            "desc": "",
+            "type": 0
+        }
+    ],
+    "devices": [],
+    "cap_add": [],
+    "cmd": [
+        "/app/PanIndex"
+    ],
+    "privileged": false,
+    "host_name": "PanIndex",
+    "container_name": "PanIndex",
+    "custom_id": "6e590033-d119-4563-856e-8be7084ed04f",
+    "enable_upnp": false,
+    "version": "1.0"
+}
