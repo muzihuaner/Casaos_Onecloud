@@ -1,0 +1,66 @@
+{
+    "host": "",
+    "protocol": "http",
+    "port_map": "5212",
+    "cpu_shares": 10,
+    "restart": "unless-stopped",
+    "label": "cloudreve",
+    "position": false,
+    "index": "",
+    "icon": "https://raw.githubusercontent.com/cloudreve/frontend/master/public/static/img/logo192.png",
+    "network_model": "bridge",
+    "image": "cloudreve/cloudreve:latest",
+    "description": "",
+    "origin": "custom",
+    "ports": [
+        {
+            "container": "5212",
+            "host": "5212",
+            "protocol": "tcp",
+            "desc": "",
+            "type": 0
+        }
+    ],
+    "volumes": [
+        {
+            "container": "/cloudreve/cloudreve.db",
+            "host": "/DATA/AppData/cloudreve/cloudreve.db",
+            "type": 0,
+            "desc": ""
+        },
+        {
+            "container": "/cloudreve/uploads",
+            "host": "/DATA/AppData/cloudreve/uploads",
+            "type": 0,
+            "desc": ""
+        },
+        {
+            "container": "/data",
+            "host": "/DATA/AppData/cloudreve/data",
+            "type": 0,
+            "desc": ""
+        },
+        {
+            "container": "/cloudreve/avatar",
+            "host": "/DATA/AppData/cloudreve/avatar",
+            "type": 0,
+            "desc": ""
+        },
+        {
+            "container": "/cloudreve/conf.ini",
+            "host": "/DATA/AppData/cloudreve/conf.ini",
+            "type": 0,
+            "desc": ""
+        }
+    ],
+    "envs": [],
+    "devices": [],
+    "cap_add": [],
+    "cmd": [],
+    "privileged": false,
+    "host_name": "cloudreve",
+    "container_name": "cloudreve",
+    "custom_id": "c7010460-23f0-44ef-9ca8-6a02b8083cd9",
+    "enable_upnp": false,
+    "version": "1.0"
+}

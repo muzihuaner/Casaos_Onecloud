@@ -1,0 +1,34 @@
+{
+    "host": "clash.razord.top",
+    "protocol": "http",
+    "port_map": null,
+    "cpu_shares": 10,
+    "restart": "unless-stopped",
+    "label": "clash",
+    "position": false,
+    "index": "",
+    "icon": "https://cdn.jsdelivr.net/gh/Dreamacro/clash/docs/logo.png",
+    "network_model": "host",
+    "image": "dreamacro/clash:latest",
+    "description": "",
+    "origin": "custom",
+    "ports": [],
+    "volumes": [
+        {
+            "container": "/root/.config/clash/config.yaml",
+            "host": "/DATA/AppData/clash/config.yaml",
+            "type": 0,
+            "desc": ""
+        }
+    ],
+    "envs": [],
+    "devices": [],
+    "cap_add": [],
+    "cmd": [],
+    "privileged": false,
+    "host_name": "clash",
+    "container_name": "clash",
+    "custom_id": "938d99f9-f64b-4980-a14f-590c9e68cfbc",
+    "enable_upnp": false,
+    "version": "1.0"
+}
