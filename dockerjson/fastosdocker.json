@@ -1,35 +1,28 @@
 {
     "host": "",
     "protocol": "http",
-    "port_map": "9000",
+    "port_map": "8081",
     "cpu_shares": 10,
     "restart": "unless-stopped",
-    "label": "portainer",
+    "label": "fastosdocker",
     "position": false,
     "index": "",
-    "icon": "https://icon.casaos.io/main/all/portainer-ce.png",
+    "icon": "https://cdn.jsdelivr.net/gh/Cp0204/AppIcon@main/all/fastosdocker.png",
     "network_model": "bridge",
-    "image": "portainer/portainer-ce:latest",
+    "image": "wangbinxingkong/fast:latest",
     "description": "",
-    "origin": "local",
+    "origin": "custom",
     "ports": [
         {
-            "container": "8000",
-            "host": "8000",
+            "container": "8082",
+            "host": "8082",
             "protocol": "tcp",
             "desc": "",
             "type": 0
         },
         {
-            "container": "9000",
-            "host": "9000",
-            "protocol": "tcp",
-            "desc": "",
-            "type": 0
-        },
-        {
-            "container": "9443",
-            "host": "9443",
+            "container": "8081",
+            "host": "8081",
             "protocol": "tcp",
             "desc": "",
             "type": 0
@@ -37,8 +30,8 @@
     ],
     "volumes": [
         {
-            "container": "/data",
-            "host": "/DATA/AppData/portainer",
+            "container": "/etc/docker",
+            "host": "/etc/docker",
             "type": 0,
             "desc": ""
         },
@@ -51,19 +44,21 @@
     ],
     "envs": [
         {
-            "container": "PATH",
-            "host": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+            "container": "TZ",
+            "host": "Asia/Shanghai",
             "desc": "",
             "type": 0
         }
     ],
     "devices": [],
     "cap_add": [],
-    "cmd": [],
+    "cmd": [
+        "/fast/dockercurl"
+    ],
     "privileged": false,
-    "host_name": "portainer",
-    "container_name": "portainer",
-    "custom_id": "af976e67-62de-4e83-b6dd-e17d609be473",
+    "host_name": "fastosdocker",
+    "container_name": "fastosdocker",
+    "custom_id": "82cee80c-ec18-4800-8387-2b1b82e5f3f1",
     "enable_upnp": false,
     "version": "1.0"
 }

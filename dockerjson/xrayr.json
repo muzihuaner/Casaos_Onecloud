@@ -1,0 +1,34 @@
+{
+    "host": "",
+    "protocol": "http",
+    "port_map": null,
+    "cpu_shares": 10,
+    "restart": "unless-stopped",
+    "label": "xrayr",
+    "position": false,
+    "index": "",
+    "icon": "https://cdn.jsdelivr.net/gh/Cp0204/AppIcon@main/all/xrayr.png",
+    "network_model": "host",
+    "image": "ghcr.io/xrayr-project/xrayr:latest",
+    "description": "",
+    "origin": "local",
+    "ports": [],
+    "volumes": [
+        {
+            "container": "/etc/XrayR",
+            "host": "/DATA/AppData/xrayr",
+            "type": 0,
+            "desc": ""
+        }
+    ],
+    "envs": [],
+    "devices": [],
+    "cap_add": [],
+    "cmd": [],
+    "privileged": false,
+    "host_name": "xrayr",
+    "container_name": "xrayr",
+    "custom_id": "af514245-714e-4472-8b3b-8a73e0057c09",
+    "enable_upnp": false,
+    "version": "1.0"
+}

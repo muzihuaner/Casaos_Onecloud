@@ -1,0 +1,61 @@
+{
+    "host": "",
+    "protocol": "http",
+    "port_map": "8080",
+    "cpu_shares": 10,
+    "restart": "unless-stopped",
+    "label": "aliyundrive-webdav",
+    "position": false,
+    "index": "",
+    "icon": "https://cdn.jsdelivr.net/gh/Cp0204/AppIcon@main/all/aliyundrive-webdav.png",
+    "network_model": "bridge",
+    "image": "messense/aliyundrive-webdav:latest",
+    "description": "",
+    "origin": "custom",
+    "ports": [
+        {
+            "container": "8080",
+            "host": "8080",
+            "protocol": "tcp",
+            "desc": "",
+            "type": 0
+        }
+    ],
+    "volumes": [
+        {
+            "container": "/etc/aliyundrive-webdav",
+            "host": "/DATA/AppData/aliyundrive-webdav",
+            "type": 0,
+            "desc": ""
+        }
+    ],
+    "envs": [
+        {
+            "container": "REFRESH_TOKEN",
+            "host": "yourtoken",
+            "desc": "",
+            "type": 0
+        },
+        {
+            "container": "WEBDAV_AUTH_USER",
+            "host": "admin",
+            "desc": "",
+            "type": 0
+        },
+        {
+            "container": "WEBDAV_AUTH_PASSWORD",
+            "host": "admin",
+            "desc": "",
+            "type": 0
+        }
+    ],
+    "devices": [],
+    "cap_add": [],
+    "cmd": [],
+    "privileged": false,
+    "host_name": "aliyundrive-webdav",
+    "container_name": "aliyundrive-webdav",
+    "custom_id": "043aea54-5273-4779-83d0-c8ad92fa55e5",
+    "enable_upnp": false,
+    "version": "1.0"
+}

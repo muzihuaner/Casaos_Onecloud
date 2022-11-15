@@ -1,1 +1,59 @@
-{"origin":"custom","network_model":"host","index":"","icon":"https://cdn.jsdelivr.net/gh/IceWhaleTech/AppIcon@main/all/aria2-pro.png","image":"p3terx/aria2-pro:latest","envs":[{"container":"LISTEN_PORT","host":"6888","desc":"","type":0},{"container":"RPC_PORT","host":"6800","desc":"","type":0},{"container":"RPC_SECRET","host":"12345","desc":"","type":0},{"container":"PUID","host":"","desc":"","type":0},{"container":"PGID","host":"","desc":"","type":0}],"ports":[],"volumes":[{"container":"/downloads","host":"/DATA/Aria2/downloads","type":0,"desc":""},{"container":"/config","host":"/DATA/Aria2/config","type":0,"desc":""}],"devices":[],"port_map":"","cpu_shares":10,"restart":"unless-stopped","enable_upnp":false,"label":"aria2-pro","description":"","position":true,"host_name":"","privileged":false,"cap_add":[],"cmd":[],"version":"1.0"}
+{
+    "host": "ariang.mayswind.net/latest#",
+    "protocol": "http",
+    "port_map": "0",
+    "cpu_shares": 10,
+    "restart": "unless-stopped",
+    "label": "aria2-pro",
+    "position": false,
+    "index": "",
+    "icon": "https://cdn.jsdelivr.net/gh/Cp0204/AppIcon@main/all/aria2.png",
+    "network_model": "host",
+    "image": "p3terx/aria2-pro:latest",
+    "description": "",
+    "origin": "custom",
+    "ports": [],
+    "volumes": [
+        {
+            "container": "/config",
+            "host": "/DATA/AppData/aria2-pro/config",
+            "type": 0,
+            "desc": ""
+        },
+        {
+            "container": "/downloads",
+            "host": "/DATA/Downloads",
+            "type": 0,
+            "desc": ""
+        }
+    ],
+    "envs": [
+        {
+            "container": "LISTEN_PORT",
+            "host": "6888",
+            "desc": "",
+            "type": 0
+        },
+        {
+            "container": "RPC_PORT",
+            "host": "6800",
+            "desc": "",
+            "type": 0
+        },
+        {
+            "container": "RPC_SECRET",
+            "host": "12345",
+            "desc": "",
+            "type": 0
+        }
+    ],
+    "devices": [],
+    "cap_add": [],
+    "cmd": [],
+    "privileged": false,
+    "host_name": "aria2-pro",
+    "container_name": "aria2-pro",
+    "custom_id": "031b6994-2380-4cea-bbc5-f2a904d0d0ed",
+    "enable_upnp": false,
+    "version": "1.0"
+}

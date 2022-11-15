@@ -1,0 +1,42 @@
+{
+    "host": "",
+    "protocol": "http",
+    "port_map": "5700",
+    "cpu_shares": 50,
+    "restart": "unless-stopped",
+    "label": "qinglong",
+    "position": false,
+    "index": "",
+    "icon": "https://icon.casaos.io/main/all/qinglong.png",
+    "network_model": "bridge",
+    "image": "whyour/qinglong:latest",
+    "description": "",
+    "origin": "custom",
+    "ports": [
+        {
+            "container": "5700",
+            "host": "5700",
+            "protocol": "tcp",
+            "desc": "",
+            "type": 0
+        }
+    ],
+    "volumes": [
+        {
+            "container": "/ql/data",
+            "host": "/DATA/AppData/ql",
+            "type": 0,
+            "desc": ""
+        }
+    ],
+    "envs": [],
+    "devices": [],
+    "cap_add": [],
+    "cmd": [],
+    "privileged": false,
+    "host_name": "qinglong",
+    "container_name": "qinglong",
+    "custom_id": "84ec005f-012f-41ed-b7b0-02e94bc827c9",
+    "enable_upnp": false,
+    "version": "1.0"
+}

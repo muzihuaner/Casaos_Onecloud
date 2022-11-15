@@ -1,0 +1,46 @@
+{
+    "host": "",
+    "protocol": "http",
+    "port_map": "8080",
+    "cpu_shares": 10,
+    "restart": "unless-stopped",
+    "label": "php-nginx",
+    "position": false,
+    "index": "",
+    "icon": "https://cdn.jsdelivr.net/gh/Cp0204/AppIcon@main/all/nginx.png",
+    "network_model": "bridge",
+    "image": "trafex/php-nginx:latest",
+    "description": "",
+    "origin": "custom",
+    "ports": [
+        {
+            "container": "8080",
+            "host": "8080",
+            "protocol": "tcp",
+            "desc": "",
+            "type": 0
+        }
+    ],
+    "volumes": [
+        {
+            "container": "/var/www/html",
+            "host": "/DATA/AppData/php-nginx",
+            "type": 0,
+            "desc": ""
+        }
+    ],
+    "envs": [],
+    "devices": [],
+    "cap_add": [],
+    "cmd": [
+        "/usr/bin/supervisord",
+        "-c",
+        "/etc/supervisor/conf.d/supervisord.conf"
+    ],
+    "privileged": false,
+    "host_name": "php-nginx",
+    "container_name": "php-nginx",
+    "custom_id": "f2ab7b3b-e6af-40a0-ad1d-5769a2bf13f6",
+    "enable_upnp": false,
+    "version": "1.0"
+}
