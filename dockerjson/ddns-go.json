@@ -1,0 +1,39 @@
+{
+    "host": "",
+    "protocol": "http",
+    "port_map": "9876",
+    "cpu_shares": 10,
+    "restart": "unless-stopped",
+    "label": "ddns-go",
+    "position": false,
+    "index": "",
+    "icon": "https://cdn.jsdelivr.net/gh/Cp0204/AppIcon@main/all/ddns.png",
+    "network_model": "host",
+    "image": "jeessy/ddns-go:latest",
+    "description": "",
+    "origin": "custom",
+    "ports": [],
+    "volumes": [
+        {
+            "container": "/root",
+            "host": "/DATA/AppData/ddns-go",
+            "type": 0,
+            "desc": ""
+        }
+    ],
+    "envs": [],
+    "devices": [],
+    "cap_add": [],
+    "cmd": [
+        "-l",
+        ":9876",
+        "-f",
+        "300"
+    ],
+    "privileged": false,
+    "host_name": "ddns-go",
+    "container_name": "ddns-go",
+    "custom_id": "593c1aef-8a7b-4c19-a7ed-f5c6fac40acf",
+    "enable_upnp": false,
+    "version": "1.0"
+}
