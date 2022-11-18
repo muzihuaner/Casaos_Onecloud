@@ -34,7 +34,7 @@ https://www.bilibili.com/video/BV1X94y1Z7sA
 
 ### 安装
 
-以下脚本基于[官方脚本](https://get.casaos.io) ，仅修改了198~202行 GitHub 加速，423行 Docker 安装加速。
+以下脚本基于[官方脚本](https://get.casaos.io) v0.3.7，仅修改了198~202行 GitHub 加速，423行 Docker 安装加速。
 
 ```sh
 wget -qO- https://cdn.jsdelivr.net/gh/Cp0204/Casaos_Onecloud@main/script/casaos.sh | bash
@@ -48,16 +48,8 @@ curl -fsSL https://cdn.jsdelivr.net/gh/Cp0204/Casaos_Onecloud@main/script/casaos
 
 ### 卸载
 
-v0.3.3 或以上
-
 ```sh
 casaos-uninstall
-```
-
-低于 v0.3.3
-
-```sh
-curl -fsSL https://cdn.jsdelivr.net/gh/Cp0204/Casaos_Onecloud@main/script/casaos.sh | sudo bash
 ```
 
 ## 其他
