@@ -23,7 +23,7 @@ CasaOS_玩客云搞基计划。
 
 ## CasaOS
 
-### CasaOS介绍
+### 介绍
 
 CasaOS项目官方 https://github.com/IceWhaleTech/CasaOS
 
