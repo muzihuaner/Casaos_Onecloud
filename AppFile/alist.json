@@ -1,0 +1,46 @@
+{
+    "host": "",
+    "protocol": "http",
+    "port_map": "5244",
+    "cpu_shares": 10,
+    "restart": "unless-stopped",
+    "label": "alist",
+    "position": false,
+    "index": "",
+    "icon": "https://alist.nn.ci/logo.svg",
+    "network_model": "bridge",
+    "image": "xhofe/alist:latest",
+    "description": "",
+    "origin": "custom",
+    "ports": [
+        {
+            "container": "5244",
+            "host": "5244",
+            "protocol": "tcp",
+            "desc": "",
+            "type": 0
+        }
+    ],
+    "volumes": [
+        {
+            "container": "/opt/alist/data",
+            "host": "/DATA/AppData/alist",
+            "type": 0,
+            "desc": ""
+        }
+    ],
+    "envs": [],
+    "devices": [],
+    "cap_add": [],
+    "cmd": [
+        "./alist",
+        "server",
+        "--no-prefix"
+    ],
+    "privileged": false,
+    "host_name": "alist",
+    "container_name": "alist",
+    "custom_id": "eded2d76-5e2d-4cd7-b609-9e42ba966886",
+    "enable_upnp": false,
+    "version": "1.0"
+}

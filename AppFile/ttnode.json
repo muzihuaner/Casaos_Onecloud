@@ -1,0 +1,46 @@
+{
+    "host": "",
+    "protocol": "http",
+    "port_map": "1024",
+    "cpu_shares": 10,
+    "restart": "unless-stopped",
+    "label": "ttnode",
+    "position": false,
+    "index": "",
+    "icon": "https://tiptime.cn/images/home/logo1.png",
+    "network_model": "host",
+    "image": "registry.cn-hangzhou.aliyuncs.com/tiptime/ttnode:latest",
+    "description": "",
+    "origin": "custom",
+    "ports": [],
+    "volumes": [
+        {
+            "container": "/mnt/data/ttnode",
+            "host": "/media/YourDevice",
+            "type": 0,
+            "desc": ""
+        },
+        {
+            "container": "/var/run/docker.sock",
+            "host": "/var/run/docker.sock",
+            "type": 0,
+            "desc": ""
+        },
+        {
+            "container": "/host/proc",
+            "host": "/proc",
+            "type": 0,
+            "desc": ""
+        }
+    ],
+    "envs": [],
+    "devices": [],
+    "cap_add": [],
+    "cmd": [],
+    "privileged": true,
+    "host_name": "ttnode",
+    "container_name": "ttnode",
+    "custom_id": "28387fe6-05c5-448e-8256-289c29ae0e57",
+    "enable_upnp": false,
+    "version": "1.0"
+}
