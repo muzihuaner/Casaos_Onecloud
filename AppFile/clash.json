@@ -7,7 +7,7 @@
     "label": "clash",
     "position": false,
     "index": "",
-    "icon": "https://cdn.jsdelivr.net/gh/Dreamacro/clash/docs/logo.png",
+    "icon": "https://gcore.jsdelivr.net/gh/Dreamacro/clash/docs/logo.png",
     "network_model": "host",
     "image": "dreamacro/clash:latest",
     "description": "",

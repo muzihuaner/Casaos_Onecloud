@@ -7,7 +7,7 @@
     "label": "php-nginx",
     "position": false,
     "index": "",
-    "icon": "https://cdn.jsdelivr.net/gh/Cp0204/AppIcon@main/all/nginx.png",
+    "icon": "https://gcore.jsdelivr.net/gh/Cp0204/AppIcon@main/all/nginx.png",
     "network_model": "bridge",
     "image": "trafex/php-nginx:latest",
     "description": "",

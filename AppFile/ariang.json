@@ -2,7 +2,7 @@
     "origin": "custom",
     "network_model": "bridge",
     "index": "/",
-    "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/AppIcon@main/all/ariang.png",
+    "icon": "https://gcore.jsdelivr.net/gh/IceWhaleTech/AppIcon@main/all/ariang.png",
     "image": "p3terx/ariang:latest",
     "envs": [],
     "ports": [

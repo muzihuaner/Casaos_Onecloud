@@ -7,7 +7,7 @@
     "label": "aliyundrive-webdav",
     "position": false,
     "index": "",
-    "icon": "https://cdn.jsdelivr.net/gh/Cp0204/AppIcon@main/all/aliyundrive-webdav.png",
+    "icon": "https://gcore.jsdelivr.net/gh/Cp0204/AppIcon@main/all/aliyundrive-webdav.png",
     "network_model": "bridge",
     "image": "messense/aliyundrive-webdav:latest",
     "description": "",

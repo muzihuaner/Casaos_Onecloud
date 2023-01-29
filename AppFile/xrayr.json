@@ -7,7 +7,7 @@
     "label": "xrayr",
     "position": false,
     "index": "",
-    "icon": "https://cdn.jsdelivr.net/gh/Cp0204/AppIcon@main/all/xrayr.png",
+    "icon": "https://gcore.jsdelivr.net/gh/Cp0204/AppIcon@main/all/xrayr.png",
     "network_model": "host",
     "image": "ghcr.io/xrayr-project/xrayr:latest",
     "description": "",

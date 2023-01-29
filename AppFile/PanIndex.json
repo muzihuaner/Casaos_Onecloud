@@ -7,7 +7,7 @@
     "label": "PanIndex",
     "position": false,
     "index": "",
-    "icon": "https://cdn.jsdelivr.net/gh/Cp0204/AppIcon@main/all/panindex.png",
+    "icon": "https://gcore.jsdelivr.net/gh/Cp0204/AppIcon@main/all/panindex.png",
     "network_model": "bridge",
     "image": "iicm/pan-index:latest",
     "description": "",

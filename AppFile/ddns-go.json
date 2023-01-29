@@ -7,7 +7,7 @@
     "label": "ddns-go",
     "position": false,
     "index": "",
-    "icon": "https://cdn.jsdelivr.net/gh/Cp0204/AppIcon@main/all/ddns.png",
+    "icon": "https://gcore.jsdelivr.net/gh/Cp0204/AppIcon@main/all/ddns.png",
     "network_model": "host",
     "image": "jeessy/ddns-go:latest",
     "description": "",

@@ -7,7 +7,7 @@
     "label": "aria2-pro",
     "position": false,
     "index": "",
-    "icon": "https://cdn.jsdelivr.net/gh/Cp0204/AppIcon@main/all/aria2.png",
+    "icon": "https://gcore.jsdelivr.net/gh/Cp0204/AppIcon@main/all/aria2.png",
     "network_model": "host",
     "image": "p3terx/aria2-pro:latest",
     "description": "",
