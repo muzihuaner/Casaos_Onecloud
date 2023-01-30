@@ -6,6 +6,8 @@ CasaOS_玩客云搞基计划。
 
 > 始于玩客云(arm/v7)，不止于玩客云
 
+### 安装Armbian
+https://github.com/muzihuaner/armbian-onecloud/blob/readme/INSTALL.md
 
 ### 第三方应用
 
