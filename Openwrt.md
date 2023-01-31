@@ -99,3 +99,19 @@ EOF
 感谢 xtwz 的 OpenWRT编译LUCI插件说明：[https://www.right.com.cn/forum/thread-344825-1-1.html](https://www.right.com.cn/forum/thread-344825-1-1.html)
 
 主要根据 xnxy2012 的 K3固件 选取 OpenWRT 软件（21年1月9日的固件）：[https://www.right.com.cn/forum/thread-3127867-1-1.html](https://www.right.com.cn/forum/thread-3127867-1-1.html)
+
+---
+
+上网设备设置
+
+静态分配IP
+
+IP地址最后一位随便设置，但排除1和255，当然也不能和主路由器上的冲突
+
+比如192.168.2.185
+
+子网掩码不变，还是255.255.255.0 (手机没有这个)
+
+网关设置（安卓手机上叫做“路由器"）为我们旁路由的IP地址
+
+DNS可以设置成旁路由的IP地址，也可以使用144.144.144.144之类的DNS服务器
